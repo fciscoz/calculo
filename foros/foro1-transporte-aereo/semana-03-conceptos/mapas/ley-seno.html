@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Conceptual — Ley del Seno</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #E5E5E5;
+      font-family: 'Segoe UI', Roboto, Tahoma, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    svg {
+      background: #FAFAFA;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <svg viewBox="0 0 1300 1100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1300" height="1100" fill="#FAFAFA"/>
+
+    <!-- Header bar -->
+    <rect x="0" y="0" width="1300" height="70" fill="#1A2744"/>
+    <text x="650" y="44" fill="#FFFFFF" font-family="Segoe UI, sans-serif" font-size="20" font-weight="600" text-anchor="middle" letter-spacing="2">
+      CÁLCULO •  EL TRANSPORTE AÉREO
+    </text>
+
+    <!-- Connector lines (drawn first, behind nodes) -->
+    <line x1="650" y1="180" x2="190" y2="290" stroke="#1A2744" stroke-width="1.8"/>
+    <line x1="650" y1="180" x2="520" y2="290" stroke="#1A2744" stroke-width="1.8"/>
+    <line x1="650" y1="180" x2="850" y2="290" stroke="#1A2744" stroke-width="1.8"/>
+    <line x1="650" y1="180" x2="1155" y2="290" stroke="#1A2744" stroke-width="1.8"/>
+
+    <!-- Proposition labels on connector lines -->
+    <g>
+      <rect x="365" y="222" width="110" height="22" fill="#FAFAFA" stroke="#1A2744" stroke-width="1" rx="2"/>
+      <text x="420" y="238" font-family="Segoe UI, sans-serif" font-size="12" font-style="italic" fill="#1A2744" text-anchor="middle">se define como</text>
+    </g>
+    <g>
+      <rect x="530" y="222" width="110" height="22" fill="#FAFAFA" stroke="#1A2744" stroke-width="1" rx="2"/>
+      <text x="585" y="238" font-family="Segoe UI, sans-serif" font-size="12" font-style="italic" fill="#1A2744" text-anchor="middle">se aplica en</text>
+    </g>
+    <g>
+      <rect x="695" y="222" width="110" height="22" fill="#FAFAFA" stroke="#1A2744" stroke-width="1" rx="2"/>
+      <text x="750" y="238" font-family="Segoe UI, sans-serif" font-size="12" font-style="italic" fill="#1A2744" text-anchor="middle">se mide en</text>
+    </g>
+    <g>
+      <rect x="848" y="222" width="110" height="22" fill="#FAFAFA" stroke="#1A2744" stroke-width="1" rx="2"/>
+      <text x="903" y="238" font-family="Segoe UI, sans-serif" font-size="12" font-style="italic" fill="#1A2744" text-anchor="middle">aplicación real</text>
+    </g>
+
+    <!-- Central node -->
+    <rect x="525" y="110" width="250" height="70" rx="35" fill="#1A2744"/>
+    <text x="650" y="155" fill="#FFFFFF" font-family="Segoe UI, sans-serif" font-size="26" font-weight="700" text-anchor="middle">LEY DEL SENO</text>
+
+    <!-- CARD 1: SIGNIFICADO -->
+    <rect x="40" y="290" width="300" height="410" fill="#FFFFFF" stroke="#1A2744" stroke-width="2" rx="4"/>
+    <rect x="40" y="290" width="300" height="40" fill="#2E4A6B" rx="4"/>
+    <rect x="40" y="320" width="300" height="10" fill="#2E4A6B"/>
+    <text x="190" y="316" fill="#FFFFFF" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">SIGNIFICADO</text>
+    <foreignObject x="55" y="345" width="270" height="345">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; color: #1A2744; font-size: 14px; line-height: 1.5;">
+        <p style="margin:0 0 12px 0;">Relación trigonométrica que vincula los <strong>lados</strong> de un triángulo con los <strong>senos</strong> de sus ángulos opuestos.</p>
+        <div style="background:#F0F4F8; border-left:3px solid #1A2744; padding:14px 10px; margin:14px 0; font-size:16px; text-align:center; font-family: 'Cambria Math', Georgia, serif;">
+          <strong>a / sen(A) = b / sen(B) = c / sen(C)</strong>
+        </div>
+        <p style="margin:0;">Se aplica en <strong>triángulos oblicuángulos</strong> (sin ángulo recto).</p>
+      </div>
+    </foreignObject>
+
+    <!-- CARD 2: CASOS DE APLICACIÓN -->
+    <rect x="370" y="290" width="300" height="410" fill="#FFFFFF" stroke="#1A2744" stroke-width="2" rx="4"/>
+    <rect x="370" y="290" width="300" height="40" fill="#2E4A6B" rx="4"/>
+    <rect x="370" y="320" width="300" height="10" fill="#2E4A6B"/>
+    <text x="520" y="316" fill="#FFFFFF" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">CASOS DE APLICACIÓN</text>
+    <foreignObject x="385" y="345" width="270" height="345">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; color: #1A2744; font-size: 14px; line-height: 1.5;">
+        <div style="border-left:3px solid #1A2744; padding-left:10px; margin-bottom:18px;">
+          <strong>Caso ALA</strong>
+          <div style="font-size:13px; margin-top:4px;">Dos ángulos y el lado comprendido entre ellos.</div>
+        </div>
+        <div style="border-left:3px solid #1A2744; padding-left:10px; margin-bottom:18px;">
+          <strong>Caso AAL</strong>
+          <div style="font-size:13px; margin-top:4px;">Dos ángulos y un lado no comprendido.</div>
+        </div>
+        <p style="margin:0; font-size:13px; font-style:italic; color:#2E4A6B;">Permite resolver triángulos cuando no es aplicable el Teorema de Pitágoras.</p>
+      </div>
+    </foreignObject>
+
+    <!-- CARD 3: UNIDADES -->
+    <rect x="700" y="290" width="300" height="410" fill="#FFFFFF" stroke="#1A2744" stroke-width="2" rx="4"/>
+    <rect x="700" y="290" width="300" height="40" fill="#2E4A6B" rx="4"/>
+    <rect x="700" y="320" width="300" height="10" fill="#2E4A6B"/>
+    <text x="850" y="316" fill="#FFFFFF" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">UNIDADES DE MEDIDA</text>
+    <foreignObject x="715" y="345" width="270" height="345">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; color: #1A2744; font-size: 14px; line-height: 1.5;">
+        <div style="margin-bottom:18px;">
+          <strong>Lados (a, b, c)</strong>
+          <div style="font-size:13px; margin-top:4px;">metros (m), kilómetros (km), millas náuticas (mn)</div>
+        </div>
+        <div>
+          <strong>Ángulos (A, B, C)</strong>
+          <div style="font-size:13px; margin-top:4px;">grados sexagesimales (°) o radianes (rad)</div>
+        </div>
+        <div style="background:#F0F4F8; border-left:3px solid #1A2744; padding:10px; margin-top:18px; font-size:13px; text-align:center;">
+          1 rad = 180°/π ≈ 57,296°
+        </div>
+      </div>
+    </foreignObject>
+
+    <!-- CARD 4: EJEMPLO -->
+    <rect x="1030" y="290" width="250" height="410" fill="#FFFFFF" stroke="#1A2744" stroke-width="2" rx="4"/>
+    <rect x="1030" y="290" width="250" height="40" fill="#2E4A6B" rx="4"/>
+    <rect x="1030" y="320" width="250" height="10" fill="#2E4A6B"/>
+    <text x="1155" y="316" fill="#FFFFFF" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1">EJEMPLO • RUTA AÉREA</text>
+    <foreignObject x="1045" y="345" width="220" height="345">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; color: #1A2744; font-size: 13px; line-height: 1.5;">
+        <p style="margin:0 0 8px 0; font-weight:600;">Triángulo aéreo: Bogotá – Medellín – Bucaramanga</p>
+        <div style="background:#F0F4F8; padding:8px; margin:8px 0; font-size:12px; line-height:1.6;">
+          A = 55° &nbsp; B = 80°<br>
+          C = 45° &nbsp; c = 230 km
+        </div>
+        <p style="margin:6px 0 4px 0; font-size:12px;">Aplicando la Ley del Seno:</p>
+        <div style="font-family:'Cambria Math', Georgia, serif; font-size:13px; padding:8px; background:#F0F4F8; line-height:1.6;">
+          a = c · sen(A)/sen(C)<br>
+          a ≈ <strong>266 km</strong><br><br>
+          b = c · sen(B)/sen(C)<br>
+          b ≈ <strong>320 km</strong>
+        </div>
+      </div>
+    </foreignObject>
+
+    <!-- Footer with references -->
+    <rect x="0" y="740" width="1300" height="360" fill="#F0F0F0"/>
+    <line x1="40" y1="740" x2="1260" y2="740" stroke="#1A2744" stroke-width="2"/>
+    <text x="40" y="775" fill="#1A2744" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" letter-spacing="2">REFERENCIAS (APA 7.ª ed.)</text>
+    <foreignObject x="40" y="790" width="1220" height="290">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; color: #1A2744; font-size: 12px; line-height: 1.7;">
+        <p style="margin: 0 0 8px 0;">Stewart, J. (2008). <em>Cálculo de una variable, transcendentes tempranas</em> (6.ª ed.). Cengage Learning.</p>
+        <p style="margin: 0 0 8px 0;">Thomas, G. B., &amp; Weir, M. D. (2006). <em>Cálculo: una variable</em> (11.ª ed.). Pearson Educación.</p>
+        <p style="margin: 0 0 8px 0;">Segarra, J., &amp; Figueras, O. (2010). La superficialidad en la enseñanza de la trigonometría. <em>Revista Latinoamericana de Investigación en Matemática Educativa, 13</em>(3), 311–342. https://dialnet.unirioja.es/descarga/articulo/7408902.pdf</p>
+        <p style="margin: 14px 0 0 0; font-size: 11px; color: #2E4A6B; font-style: italic;">Politécnico Grancolombiano — Facultad de Ingeniería, Diseño e Innovación. Trabajo Colaborativo "El Transporte Aéreo".</p>
+      </div>
+    </foreignObject>
+  </svg>
+</body>
+</html>
