@@ -7,7 +7,7 @@ Repositorio de entregas para el curso **Cálculo I** — Facultad de Ingeniería
 | Carpeta | Tema | Estado |
 |---------|------|--------|
 | [`entrega-1-mapas-conceptuales/`](entrega-1-mapas-conceptuales/) | Ley del Seno y Ley del Coseno | ✅ Entregado |
-| [`entrega-2-ejercicio-wiris/`](entrega-2-ejercicio-wiris/) | Resolución de ejercicio con WIRIS | 🔲 Pendiente |
+| [`entrega-2-ejercicio-wiris/`](entrega-2-ejercicio-wiris/) | Distancia Bogotá → Medellín con Ley de Haversine | ✅ Entregado |
 | [`entrega-3-programacion-r/`](entrega-3-programacion-r/) | Ruta de vuelo y fórmula Haversine en R | 🔲 Pendiente |
 
 ## Recursos
